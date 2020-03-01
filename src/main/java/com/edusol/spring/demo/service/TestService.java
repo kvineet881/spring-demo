@@ -14,6 +14,7 @@ public class TestService {
     public List<Customer> getCustomer()
     {
         log.info("Inside Service Class");
+        log.info("Getting Customer Data");
         List<Customer> cust= new ArrayList<>();
         cust.add( new Customer(1,"Vineet Kumar","Pune"));
         cust.add( new Customer(2,"Anurag Kumar","Pune"));
